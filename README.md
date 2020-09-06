@@ -9,7 +9,7 @@ Private DNS
 Virtual Network
 Besides, the source code also set up the virtual network and allows the Postgresql can be accessed through the private connection. The Azure Kubernetes Service is also using the Azure CNI plugin.
 
-Prerequisites:
+## Prerequisites:
 
 1. [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 2. Login to Azure CLI with the command below:
@@ -20,7 +20,7 @@ az login
 
 3. [Install terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
-Set up infrastructure:
+## Set up infrastructure:
 
 1. terraform init
 2. terraform plan
