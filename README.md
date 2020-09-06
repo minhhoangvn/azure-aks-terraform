@@ -1,12 +1,15 @@
 # Azure AKS Terraform
 
 This repository is used for demo purposes. This Terraform source code will create a sample infrastructure, which will create a list of infrastructure components below:
-Azure Kubernetes Service
-Postgresql
-Redis Cache
-Azure Blob Storage
-Private DNS
-Virtual Network
+
+1. Azure Kubernetes Service
+2. Postgresql
+3. Redis Cache
+4. Azure Blob Storage
+5. Private DNS
+6. Virtual Network
+7. Subnet and Network Peering 
+
 Besides, the source code also set up the virtual network and allows the Postgresql can be accessed through the private connection. The Azure Kubernetes Service is also using the Azure CNI plugin.
 
 ## Prerequisites:
